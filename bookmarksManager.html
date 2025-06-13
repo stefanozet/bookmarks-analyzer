@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet"> -->
+
+	<title>Boolmarks Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<div class="container">
+		<div id="header">
+			<h1>Bookmarks Manager</h1>
+			<div id="info">
+				<span id="totalCount">0</span> bookmarks of which <span id="duplicateCount">0</span>	duplicates.
+				<button id="deleteDuplicates" class="deleteButton"><i class="fa-solid fa-trash-can"></i><span>Delete all duplicate bookmarks</span></button>
+			</div>
+			<div id="folder">
+				<span id="folderCount">0</span> folders of which <span id="folderEmpty">0</span> empty.
+				<button id="deleteEmptyFolders" class="deleteButton"><i class="fa-solid fa-trash-can"></i><span>Delete all empty folders</span></button>
+			</div>
+		</div>
+		<div class="tab">
+			<div id="loadBookmarks" class="tabBar active"><i class="fa-solid fa-bookmark"></i><span>All</span></div>
+			<div id="filterDuplicates" class="tabBar"><i class="fa-solid fa-folder-tree"></i><span>Duplicates</span></div>
+			<div id="folders" class="tabBar"><i class="fa-solid fa-folder"></i><span>Folders</span></div>
+			<div id="emptyFolders" class="tabBar"><i class="fa-regular fa-folder"></i><span>Empty folders</span></div>
+			<!-- <div id="folderView" class="tabBar"><i class="fa-solid fa-folder-closed"></i><span>Folders</span></div> -->
+		</div>
+	
+		<div id="bookmarksList"></div>
+	</div>
+  <script type="module" src="page.js"></script>
+</body>
+</html>

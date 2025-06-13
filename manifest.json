@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "Bookmark Manager",
+	"version": "0.1",
+	"description": "Visualizza i segnalibri in una lista semplificata.",
+	"permissions": [
+		"bookmarks"
+	],
+	"action": {
+		"default_icon": "icons/icon128.png"
+	},
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"bookmarksManager.html"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	],
+	"background": {
+  	"service_worker": "background.js"
+	}
+}
