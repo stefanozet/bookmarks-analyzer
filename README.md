@@ -1,5 +1,12 @@
 # bookmarks-analyzer
-Bookmarks Analyzer helps to delete duplicate bookmarks and empty folders.
+Bookmarks Analyzer helps users clean duplicate bookmarks and empty folders.
+It providing the following functionalities: 
+* Detects and deletes duplicate bookmarks. 
+* Identifies and removes empty folders. 
+* Allows deletion of duplicates within specific folders or including subfolders. 
+* Displays how many times a bookmark appears across folders. 
+* Provides tools to manage bookmarks and folders efficiently.
+
 ![1](https://github.com/user-attachments/assets/49952b54-5b06-4c5c-aa39-006b60370240)
 
 ## Header
