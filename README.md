@@ -1,7 +1,38 @@
 # bookmarks-analyzer
-Bookmarks analyzer help to delete duplicate bookmarks and empty folders.
+Bookmarks Analyzer helps to delete duplicate bookmarks and empty folders.
 ![1](https://github.com/user-attachments/assets/49952b54-5b06-4c5c-aa39-006b60370240)
 
 ## Header
+The header shows:
+* Total and duplicate bookmarks.
+* Total and empty folders.
+
+It is possible to:
+* Delete all duplicate bookmarks.
+* Delete all empty folders.
+
 ![02 header](https://github.com/user-attachments/assets/04a69da5-9b32-45c4-9291-2d114d3f727e)
+
+## "All" Tab
+It shows the list of all bookmarks by URL, and for each of them, it shows every folder in which the bookmark is located.
+
+For each folders, you can:
+* Delete bookmarks in a folder.
+* Delete all duplicate bookmarks in a folder.
+* Delete all duplicate bookmarks in a folder and its subfolders.
+![03 bookmarks](https://github.com/user-attachments/assets/20b43027-e877-45f4-a1d2-41e1aba45799)
+
+And more you can click on any segment of folder and see bookmarks in that folder and how many of that bookmark exist.
+![04 bookmark folder](https://github.com/user-attachments/assets/492551f3-7c4b-4522-bd0c-4b438092a3f6)
+
+## "Duplicates" Tab
+Similar to the "All" tab, but it shows only duplicate bookmarks — that is, bookmarks located in more than one folder.
+
+## "Folders" Tab
+Its show the list of all folders and for each of them, it shows number of bookmarks and subfolders contained.
+![05 folders](https://github.com/user-attachments/assets/c3b6c561-dac7-4876-a703-eaf6fb5c8f77)
+
+## "Folders" Tab
+Smilar to the "Folders" tab but it show only empty folders.
+
 
