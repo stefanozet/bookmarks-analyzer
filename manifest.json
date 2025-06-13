@@ -1,8 +1,9 @@
 {
 	"manifest_version": 3,
-	"name": "Bookmark Manager",
-	"version": "0.1",
-	"description": "Visualizza i segnalibri in una lista semplificata.",
+	"name": "Bookmarks Analizer",
+	"version": "1.0",
+	"short description": "Bookmarks analyzer help to delete duplicate bookmarks and empty folders.",
+	"description": "Bookmarks Analyzer helps users clean and organize their bookmarks by providing the following functionalities: * Detects and deletes duplicate bookmarks. * Identifies and removes empty folders. * Allows deletion of duplicates within specific folders or including subfolders. * Displays how many times a bookmark appears across folders. * Provides tools to manage bookmarks and folders efficiently.",
 	"permissions": [
 		"bookmarks"
 	],
