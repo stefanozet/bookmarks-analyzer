@@ -20,6 +20,7 @@ For each folder, you can:
 * Delete bookmarks in a folder.
 * Delete all duplicate bookmarks in a folder.
 * Delete all duplicate bookmarks in a folder and its subfolders.
+
 ![03 bookmarks](https://github.com/user-attachments/assets/20b43027-e877-45f4-a1d2-41e1aba45799)
 
 You can also click on any folder segment to see the bookmarks in that folder and how many instances of that bookmark exist.
