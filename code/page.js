@@ -46,8 +46,8 @@ function deleteAllDuplicateBookmarks() {
 			if (Array.isArray(value) && value.length > 1) {
 				value.forEach((bm, index) => {
 					if (index) { // Se non è il primo elemento, allora è un duplicato
-						console.log('Deleting duplicate bookmark:', bm.title, index, 'with URL:', bm);
-						// chrome.bookmarks.remove(bm.id);
+						// console.log('Deleting duplicate bookmark:', bm.title, index, 'with URL:', bm);
+						chrome.bookmarks.remove(bm.id);
 						return true;
 					}
 				});
@@ -61,7 +61,7 @@ function deleteBooknmarkDuplicateInFolder(urlMap, folder) {
 		if (Array.isArray(host) && host.length > 1) {
 			for (const bm of host) {
 				if (bm.folder === folder) {
-					// chrome.bookmarks.remove(bm.id);
+					chrome.bookmarks.remove(bm.id);
 					// urlMap.delete(key);
 				}
 			}
@@ -76,7 +76,7 @@ function deleteBookmarksDuplicateInFolderAndSub(urlMap, folder) {
 			for (const bm of host) {
 				// console.log('---->', bm.folder.substring(0, folder.length));
 				if (bm.folder.substring(0, folder.length) === folder) {
-					// chrome.bookmarks.remove(bm.id);
+					chrome.bookmarks.remove(bm.id);
 					// urlMap.delete(key);
 					console.log('---->', bm.folder);
 					// console.log(bm.folder);
